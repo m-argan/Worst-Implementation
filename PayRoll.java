@@ -34,8 +34,9 @@ class PayRoll {
     public double[] payAllEmployees() {
         double[] payArray = new double[payRoll.size()];
         for (int i = 0; i < payRoll.size(); i++) {
-            payArray[i] = payRoll.get(i).getPaid();
+            payArray[i] = payRoll.get(i).SPARKLEDASH();
         }
+        System.out.println("This works");
         return payArray;
     }
 }
