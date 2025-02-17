@@ -3,7 +3,7 @@ This is an assignment for a class- we are intentionally breaking all code conven
 
 
 
--- RULES BROKEN WHERE --
+-- RULES BROKEN --
 
 Contractor.java:
 
