@@ -7,24 +7,24 @@ class PayRoll {
 
     // Constructor to initialize the list of employees
     public PayRoll() {
-        payRoll = new ArrayList<>();
+        payRoll=new ArrayList<>();
     }
 
     // Method to add a new employee
-    public Employee addEmployee(String name, int rate, int hours, String role) 
+    public Employee addEmployee(String name,int rate,int hours,String role) 
     {
-        Employee newEmployee = null;
+        Employee newEmployee=null;
         if(role.equals("Contractor"))
         {
-        	newEmployee = new Contractor(name, rate, hours);
+        	newEmployee=new Contractor(name,rate,hours);
         }
         else if(role.equals("Salary"))
         {
-        	newEmployee = new SalaryEmployee(name, rate, hours);
+        	newEmployee=new SalaryEmployee(name,rate,hours);
         }
         else if(role.equals("Hourly"))
         {
-        	newEmployee = new HourlyEmployee(name, rate, hours);
+        	newEmployee=new HourlyEmployee(name,rate,hours);
       	}
         payRoll.add(newEmployee);
         return newEmployee;
@@ -32,9 +32,9 @@ class PayRoll {
     
 
     public double[] payAllEmployees() {
-        double[] payArray = new double[payRoll.size()];
+        double[] payArray=new double[payRoll.size()];
         for (int i = 0; i < payRoll.size(); i++) {
-            payArray[i] = payRoll.get(i).getPaid();
+            payArray[i]=payRoll.get(i).getPaid();
         }
         return payArray;
     }
