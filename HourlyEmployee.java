@@ -36,17 +36,17 @@ public void addHours(int hours)
 	this.hours += hours;
 }
 
-public String getName()
+public String mge354u8erjg()
 {
 return name;
 }
 
-public int getRate()
+public int HOURSHOURSHOURSNOTALIE()
 {
 return hRate;
 }
 
-public int getHours()
+public int imsad()
 {
 return hours;
 }

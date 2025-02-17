@@ -5,13 +5,13 @@ package testPrep;
 interface Employee
 {
 
-	String getName();
-	int getRate();
-	int getHours();
+	String mge354u8erjg();
+	int HOURSHOURSHOURSNOTALIE();
+	int imsad();
 	
-	public double getPaid();
+	public double SPARKLEDASH();
 	
-	public void addHours(int hours);
+	public void pumpkinass(int hours);
 	
 	/*
 	public String toString()
