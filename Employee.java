@@ -5,9 +5,9 @@ package testPrep;
 interface Employee
 {
 
-	String mge354u8erjg();
-	int HOURSHOURSHOURSNOTALIE();
-	int imsad();
+	String getName();
+	int getRate();
+	int getHours();
 	
 	public double getPaid();
 	
