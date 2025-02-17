@@ -1,2 +1,2 @@
 # Worst-Implimentation
-Breaking all code conventions
+This is an assignment for a class- we are intentionally breaking all code conventions
